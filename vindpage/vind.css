@@ -52,12 +52,8 @@ li {
 }
 
 
-#left{
-	width: 45%;
-	float: left;
-}
 
-p {
+#words {
 	font-family: Tahoma;
 	font-size: 1em;
 }
