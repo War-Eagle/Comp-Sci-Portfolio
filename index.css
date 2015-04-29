@@ -15,10 +15,15 @@ img {
 	height: 170px;
 	width: 170px;
 	box-shadow: rgba(0,0,0,.3) 5px 5px;
-    float:right;
 
 }
-
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #373737;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
 #navbar {
 	position: fixed;
 	bottom:10px;
@@ -33,6 +38,7 @@ ul{
 	margin: -10px;
 }
 
+
 li {
 	display: inline;
     border-style: outset;
@@ -43,21 +49,11 @@ li {
 	border-radius: 5px 5px;
 	background-color: #9999ff
 }
-#header {
-	position: relative;
-	top: -10px;
-	background-color: #373737;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+
+#welcome {
+    margin: 0 auto;
+    width: 15%;
 }
 
 
-#left{
-	width: 45%;
-	float: left;
-}
 
-p {
-	font-family: Tahoma;
-	font-size: 1em;
-}
