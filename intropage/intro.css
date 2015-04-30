@@ -47,6 +47,7 @@ li {
 }
 #about {
     width: 45%;
+    margin-left: 175px
 }
 pre {
     font-family: sans-serif;
