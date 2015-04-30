@@ -1,7 +1,5 @@
 body {
-/*     background-color: #afafaf */
-    background-image: url("http://www.pulsarwallpapers.com/data/media/3/Alien%20Ink%202560X1600%20Abstract%20Background.jpg");
-    background-size: 100% 200%;
+    background-color: #afafaf
 }
 h2 {
     font-weight: bold;
@@ -29,23 +27,22 @@ img {
     left:50%;
     margin-left:-350px;
 }
-#navbar a {
-    color: #ffffff;
-}
 ul {
     list-style-type: none;
     position: fixed;
     margin: -10px;
 }
+
+
 li {
     display: inline;
     border-style: groove;
     border: px;
     font-family: Futura, Tahoma, sans-serif;
-    color: #656565;
+    color: #afffff;
     padding: 5px;
     border-radius: 5px 5px;
-    background-color: #656565
+    background-color: #9999ff
 }
 #about {
     width: 45%;

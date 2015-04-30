@@ -1,8 +1,5 @@
 body {
-/*     background-color: #afafaf */
-    background-image: url("http://touchechicago.com/wp-content/uploads/2013/10/dark-texture.jpg");
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
+    background-color: #afafaf
 }
 h2 {
     font-weight: bold;
@@ -24,9 +21,6 @@ img {
     left:50%;
     margin-left:-350px;
 }
-#navbar a {
-    color: #ffffff;
-}
 ul {
     list-style-type: none;
     position: fixed;
@@ -37,10 +31,10 @@ li {
     border-style: groove;
     border: px;
     font-family: Futura, Tahoma, sans-serif;
-    color: #656565;
+    color: #afffff;
     padding: 5px;
     border-radius: 5px 5px;
-    background-color: #656565
+    background-color: #9999ff
 }
 #header {
     position: relative;
@@ -52,9 +46,8 @@ li {
 #words {
     font-family: sans-serif;
     font-size: 1em;
-    color: #e1e1e1 
 }
-#code {
-    color: #e1e1e1
+
+    
     
 }
