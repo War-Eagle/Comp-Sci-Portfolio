@@ -30,8 +30,7 @@ ul {
 }
 li {
     display: inline;
-    border-style: outset;
-    border: px;
+    border-style: groove;
     font-family: Futura, Tahoma, sans-serif;
     color: #afffff;
     padding: 5px;
