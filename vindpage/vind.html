@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <meta name="robots" content="noindex">
 <html>
-	<head>
-		<link type="text/css" rel="stylesheet" href="vind.css"/>
-		<title>Result</title>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="vind.css" />
+    <title>Result</title>
 
 </head>
-	<body>
-		<div id="header">
-			 <div id="navbar">
-				<ul>
-                    <li><a href="../intropage/intro.html">About class</a></li>
-                    <li><a href="../aboutme/aboutme.html">About me</a></li>    
-				    <li><a href="../calculator/calc.html">Calculator</a></li>
-				    <li><a href="../dogegenerator/doge.html">Doge generator</a></li>
-				    <li><a href="../seatgenerator/seatgen.html">Seat Generator</a></li>
-                    <li><a href="../vindpage/vind.html">Vindinium</a></li>
-				</ul>
-			</div>
-			<h2>Vindinium</h2>
+
+<body>
+    <div id="header">
+        <div id="navbar">
+            <ul>
+                <li><a href="../intropage/intro.html">About class</a>
+                </li>
+                <li><a href="../aboutme/aboutme.html">About me</a>
+                </li>
+                <li><a href="../calculator/calc.html">Calculator</a>
+                </li>
+                <li><a href="../dogegenerator/doge.html">Doge generator</a>
+                </li>
+                <li><a href="../seatgenerator/seatgen.html">Seat Generator</a>
+                </li>
+                <li><a href="../vindpage/vind.html">Vindinium</a>
+                </li>
+            </ul>
         </div>
-        
-        <img src="http://stratosprovatopoulos.com/wp-content/uploads/2014/02/Vindinium.jpg">
-      <pre id="words">        
+        <h2>Vindinium</h2>
+    </div>
+
+    <img src="http://stratosprovatopoulos.com/wp-content/uploads/2014/02/Vindinium.jpg">
+    <pre id="words">        
           The last project that we did in Computer Science class, was to make
       an "AI", which would then go connect to Vindinium.org, and the bots
       would battle. The goal of the game is to get the most gold. There
@@ -47,7 +55,7 @@
       finds the nearest bot, and attacks it, although it is simple, it does
       work very well.
      </pre>
-        <pre><code>
+    <pre><code>
 var Bot = require('bot');
 var PF = require('pathfinding');
 //var bot = new Bot('lr0com1v', 'arena', 'http://24.6.28.217:9000');
@@ -111,5 +119,6 @@ Bot.prototype.botBrain = function() {
 bot.runGame();
 
 </code></pre>
-	</body>
+</body>
+
 </html>
